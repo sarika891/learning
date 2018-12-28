@@ -1,7 +1,3 @@
-node {
-    checkout scm (1)
-    
-}
 pipeline {
     agent any
     environment {
