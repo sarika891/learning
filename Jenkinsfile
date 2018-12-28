@@ -4,7 +4,10 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh './configure.sh'
+                    sh """
+                    echo "hello world"
+                    ./configure.sh
+                    """
                 }
             }
         }
